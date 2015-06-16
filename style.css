@@ -1,0 +1,140 @@
+body {
+background-color: #ddd;
+width: 960px;
+margin: 0 auto;}
+
+
+/* ID element*/
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(25,25,25,.8);
+  margin-bottom: 10px;
+  bottom-border:dotted;
+}
+
+
+
+
+/*CLASSES*/
+.container {
+margin-top: 50px;
+padding: 10px;	
+}
+
+.left { /*720px*/
+	width: 250px;
+	padding: 20px 10px 5px 20px;;
+	float: left;
+	background: rgba(75, 75, 75, 0.23);
+	margin-right: 5px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.right { /*240px*/
+	width: 500px;
+	padding: 20px 10px 5px 20px;
+	float: left;
+	margin-left: 5px;
+	border-radius: 6px;
+	margin-bottom: 30px;
+}
+
+.footer {
+	width: 100%;
+	background-color: #;
+	border-top: 1px solid #86BD92;
+    color: #000;
+    clear:both;
+    text-align:center;
+   padding:15px;	 	 
+}
+
+
+
+.container2 h2 {
+	text-align: center;
+	clear: both;
+	color: rgb(64, 167, 156);
+	font-family: 'Black Ops One', cursive;
+}
+
+/*IMAGES*/
+.profilePic {
+	opacity: .5;
+	height: 350px;
+	width: 250px;
+	border: 10px 25px 40px 25px;
+	border-color:red;
+	margin: 25px;
+	border-radius: 5px;
+}
+
+.rightImg {
+	height: 100px; 
+	width:100px;
+	float: right;
+	margin: 10px 18px 10px 10px;
+}
+
+.imgMedium {height: 400px;
+width: 600px;
+display: block;
+margin: auto;
+margin-bottom: 30px;
+border-radius: 6px;
+}
+
+img:hover{
+opacity: 1; 
+}
+
+
+
+
+/*DESIGN ELEMENTS*/
+a {text-decoration: none;
+	color: #86BD92;
+	font-weight: bold;
+	font-family: 'Black Ops One', cursive;
+}
+
+ul li {display: inline;
+padding: 25px;
+margin-top}
+
+
+button {float: right;
+margin: -43px 85px 20px 0px;
+width: 15%;
+background-color: rgb(100, 200, 111);
+border-radius: 6px;
+color: #fff;
+font-weight: bold;
+font-size: 1.5em;
+}
+
+button:hover {
+margin: -41px 80px 20px 0px;
+}
+
+
+p::first-letter { 
+    font-size: 400%;
+    color: red;
+    margin-right: 6px;
+}
+
+
+h1 {text-align: center;
+font-family: 'Ruslan Display', cursive;
+color: #539F64;}
+
+h2 {text-align: center;
+color: #6C6868}
+
