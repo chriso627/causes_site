@@ -75,6 +75,21 @@ padding: 10px;
 	border-radius: 5px;
 }
 
+.groupImg {
+	border-radius: 6px;
+	margin-top: 15px;
+}
+
+
+.page2Img{
+display: block;
+width: 700px;
+height: 500px;
+margin: auto;
+margin-bottom: 35px;
+border-radius: 6px;
+}
+
 .rightImg {
 	height: 100px; 
 	width:100px;
