@@ -76,8 +76,13 @@ padding: 10px;
 }
 
 .groupImg {
+	display: block;
 	border-radius: 6px;
 	margin-top: 15px;
+	height: 200px;
+	width: 700px;
+	margin: auto;
+	margin-top: 50px;
 }
 
 
